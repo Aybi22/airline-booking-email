@@ -4,7 +4,7 @@
 }
 .hero{
     background:#fff;
-    padding:34 px 24px;
+    padding:34px 24px;
     text-align:center;
 }
 h1{
@@ -28,15 +28,56 @@ p{
     font-weight:900;
     text-align:center;
 }
+.booking-summary, .booking, .help-section{
+
+   
+    background:#fff;
+}
+.flight-summary{
+    background:#fff;
+}
+.booking-summary td{
+ 
+    width:600px;
+}
+.btn{
+    background:#05016A;
+    color:#fff;
+    padding:24px 12px;
+    width:239px;
+    text-transform:capitalize;
+    cursor:pointer;
+    border-radius:12px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.contact-btn{
+    border:1px solid black;
+    color:#05016A;
+    border-radius:12px;
+    background:white;
+    width:162px;
+    padding:24px 12px;
+    text-transform:capitalize;
+}
 .ref{
     font-weight:900;
     color:#05016A;
     font-size:1.6rem;
 }
-.label{
-    display:flex;
-    justify-content:space-between;
+.booking-table{
+    background:#fff;
+}
+.label, .value{
+   padding:8px 0;
     text-transform:capitalize;
+ 
+}
+tr{
+    width:600px;
 }
 .value{
     font-weight:700;
