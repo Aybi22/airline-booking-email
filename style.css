@@ -1,6 +1,7 @@
 .header{
     background:#05016A;
-    padding:24px;
+    padding: 24px;
+   
 }
 .hero{
     background:#fff;
@@ -28,14 +29,15 @@ p{
     font-weight:900;
     text-align:center;
 }
-.booking-summary, .booking, .help-section{
+.booking-summary, .booking-table, .help-section{
 padding:32px 24px;
    
     background:#fff;
 }
-.flight-summary{
-    background:#fff;
-}
+
+
+
+
 .booking-summary td{
  
     width:600px;
@@ -56,6 +58,7 @@ a{
 .footer{
     background:#05016A;
     color:#fff;
+    padding:32px 24px;
 }
 .footer-heading{
     color:#fff;
@@ -100,4 +103,11 @@ tr{
     font-size:1.5rem;
     color:#05016A;
     font-weight:900;
+}
+.button-section{
+    padding:32px 24px;
+  
+}
+.help-section td{
+    padding:17px 0;
 }
