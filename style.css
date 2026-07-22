@@ -4,7 +4,7 @@
 }
 .hero{
     background:#fff;
-    padding:34px 24px;
+    padding:32px 24px;
     text-align:center;
 }
 h1{
@@ -29,7 +29,7 @@ p{
     text-align:center;
 }
 .booking-summary, .booking, .help-section{
-
+padding:32px 24px;
    
     background:#fff;
 }
