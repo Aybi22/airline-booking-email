@@ -1,0 +1,18 @@
+.header{
+    background:#05061A;
+    padding:24px;
+}
+.hero{
+    background:#fff;
+    padding:34 px 24px;
+    text-align:center;
+}
+h1{
+    font-size:32px;
+    color:#05061A;
+}
+.hero-para{
+    font-size:1rem;
+    line-height:25px;
+    margin:auto;
+}
