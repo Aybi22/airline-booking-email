@@ -4,9 +4,17 @@
    
 }
 .hero{
-    background:#fff;
+  
     padding:32px 24px;
     text-align:center;
+}
+
+table{
+   padding:22px;
+   
+}
+.section{
+    border:3px solid yellow;
 }
 h1{
     font-size:32px;
@@ -29,19 +37,20 @@ p{
     font-weight:900;
     text-align:center;
 }
-.booking-summary, .booking-table, .help-section{
+.booking-table, .booking-summary, .help-section{
 padding:32px 24px;
-   
+   background:#fff;
+    
+}
+
+.booking-summary{
     background:#fff;
+   
+}
+.hero{
+    background:white;
 }
 
-
-
-
-.booking-summary td{
- 
-    width:600px;
-}
 .btn{
     background:#05016A;
     color:#fff;
@@ -69,7 +78,13 @@ a{
     font-weight:lighter;
     font-size:12px;
 }
-
+section{
+    background:#fff;
+}
+.wrapper{
+    background:white;
+   margin-bottom:2rem;
+}
 .contact-btn{
     border:1px solid black;
     color:#05016A;
@@ -85,7 +100,7 @@ a{
     font-size:1.6rem;
 }
 .booking-table{
-    background:#fff;
+ 
 }
 .label, .value{
    padding:8px 0;
