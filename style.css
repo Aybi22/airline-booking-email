@@ -53,6 +53,19 @@ p{
 a{
     text-decoration:none;
 }
+.footer{
+    background:#05016A;
+    color:#fff;
+}
+.footer-heading{
+    color:#fff;
+    font-weight:700;
+    font-size:1rem;
+}
+.small-text{
+    font-weight:lighter;
+    font-size:12px;
+}
 
 .contact-btn{
     border:1px solid black;
