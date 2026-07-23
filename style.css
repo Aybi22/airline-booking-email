@@ -62,6 +62,8 @@ padding:32px 24px;
 .btn{
     background:#05016A;
     color:#fff;
+    font-weight:bold;
+    font-family:inter;
     padding:24px 12px;
     width:239px;
     text-transform:capitalize;
@@ -97,6 +99,9 @@ section{
 .contact-btn{
     border:1px solid black;
     color:#05016A;
+    font-weight: 600;
+    font-size:1rem;
+    font-family:inter;
     border-radius:12px;
     background:white;
     width:162px;
@@ -135,5 +140,5 @@ tr{
   
 }
 .help-section td{
-    padding:17px 0;
+    
 }
