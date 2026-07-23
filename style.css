@@ -20,12 +20,18 @@ h1{
     font-size:32px;
     color:#050161;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 26px;
 }
 .hero-para{
     font-size:1rem;
     line-height:25px;
-    margin:0 auto;
+ 
     
+}
+
+.hero p{
+   
+      padding-bottom: 26px;
 }
 p, .label, .value{
    font-family: "Inter", Arial, sans-serif;
