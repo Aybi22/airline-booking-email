@@ -32,7 +32,7 @@ h1{
     font-family:inter;
     font-weight:600;
     font-size:18px;
-    color:red;
+    
 }
 
 .hero p{
@@ -74,7 +74,7 @@ padding:32px 24px;
 .btn{
     background:#05016A;
     color:#fff;
-    font-weight:bold;
+    font-weight:600;
     font-family:inter;
     padding:24px 12px;
     width:239px;
