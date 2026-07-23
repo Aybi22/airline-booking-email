@@ -62,6 +62,12 @@ padding:32px 24px;
    border-radius:12px;
     
 }
+.list{
+    font-family:inter;
+    font-size:1rem;
+    text-transform:capitalize;
+    padding:17px 0px;
+}
 
 .booking-summary{
     background:#fff;
