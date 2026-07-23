@@ -27,8 +27,8 @@ h1{
     margin:0 auto;
     
 }
-p{
-    font-family:inter;
+p, .label, .value{
+   font-family: "Inter", Arial, sans-serif;
     font-size:1rem;
     line-height:25px;
 }
@@ -61,6 +61,7 @@ padding:32px 24px;
     text-transform:capitalize;
     cursor:pointer;
     border-radius:12px;
+    display: inline-block;
 }
 
 a{
@@ -95,6 +96,8 @@ section{
     width:162px;
     padding:24px 12px;
     text-transform:capitalize;
+    display:inline-block;
+    text-align: center;
 }
 .ref{
     font-weight:900;
@@ -116,7 +119,7 @@ tr{
     font-weight:700;
     text-transform:capitalize;
 }
-.value.time{
+.value.time, .label.time{
     font-size:1.5rem;
     color:#05016A;
     font-weight:900;
