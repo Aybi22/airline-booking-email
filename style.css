@@ -4,9 +4,10 @@
 }
 
 #ticket{
-    background: #F8F9FA;
-    background:lightpink;
-    border:1
+    background: #F8F9FA!important;
+    padding:2rem;
+ 
+   
 }
 .header{
     background:#05016A;
@@ -219,7 +220,8 @@ tr{
     font-size:13px;
    
 }
-#ticket span{
+#ticket span:not(.ref-num){
     display:block;
+    font-weight:700;
 }
 
