@@ -278,3 +278,49 @@ tr{
     display:flex;
     gap:1rem;
 }
+
+#home {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f5f6fa;
+}
+#home h1{
+    text-align:center;
+}
+
+#home > p {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto 40px;
+    line-height: 1.6;
+}
+
+.email-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    color: #05016A;
+    text-decoration: none;
+    font-weight: 600;
+}
+
