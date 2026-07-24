@@ -166,7 +166,7 @@ tr{
     width:600px;
 }
 .info-title{
-    font-size:2.4rem;
+    font-size:1.5rem!important;
     font-weight:900;
 }
 .ref-num{
@@ -231,4 +231,34 @@ tr{
 }
 .receipt-section{
     display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem;
+    background:skyblue;
+}
+.receipt-label{
+    text-transform:capitalize;
+    font-weight:900;
+}
+.flight-infos article i{
+    color:#A11616;
+}
+.flight-infos article >p{
+    display:flex;
+    align-items:center;
+    gap:0.7rem;
+}
+.ticket-num, .name{
+    font-size:1.5rem;
+    font-weight:700;
+}
+.total-amount{
+    font-size:2rem;
+    font-weight:900;
+}
+.total h3{
+    display:flex;
+    font-size:2rem;
+    gap:0.5rem;
+    align-items: center;
 }
