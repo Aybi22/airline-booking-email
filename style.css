@@ -6,6 +6,7 @@
 #ticket{
     background: #F8F9FA;
     background:lightpink;
+    border:1
 }
 .header{
     background:#05016A;
@@ -170,6 +171,7 @@ tr{
 .ref-num{
     font-weight:900;
     font-size:3rem;
+    color:#A11616;
 }
 .value{
     font-weight:700;
