@@ -224,4 +224,11 @@ tr{
     display:block;
     font-weight:700;
 }
-
+.receipt-box{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+.receipt-section{
+    display:flex;
+}
