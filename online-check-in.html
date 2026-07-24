@@ -40,9 +40,114 @@
    <body>
 
 
+<div id="online-check-in">
+<div class="header">
+<img src="images/skylogo.png">
+</div>
+<h1>Online Check-in</h1>
+
+ 
+<p class="hero-para">
+Welcome back, Ibrahima.
+
+Please review your flight details before completing check-in.
+
+</p>
+<section>
+   <h2>Passenger</h2>
+<p>Passenger
+<span>Ibra kamagate</span>
+</p>
+<p>Booking Refence:
+<span>SKY46879</span>  
+ </p> 
+
+<p>Ticket number
+<span>1455670</span>
+</p>
+</section>
+
+<section class="seat">
+<h2>Seat</h2>
+<p>Sit will be assigned after check-in</p>
 
 
-      </body>
+</section>
+
+<section class="bagage">
+<h2>Bagage</h2>
+<p>Cabin bagage included</p>
+<p>Checked-bagage<span>2*23kg</span></p>
+
+</section>
+
+<section class="flight">
+   <h2>Flight summary</h2>
+
+<p>Flight number
+<span>SK 747</span>
+</p>
+
+
+   <p>From
+<span>London Heathrow (LHR)</span>
+</p>
+
+<p>To
+<span>Paris charles de gaulle (CGD)</span>
+</p>
+
+<p>Departure
+<span>  26 July 09:30 AM</span>
+</p>
+<p>Arrival
+<span> 26 July 11:45 AM</span>
+
+</p>
+</section>
+<div class="confirmation-box">
+     <input type="checkbox" class="confirm-box">
+     
+      <p>I confirm that my travel infornation is correct</p>
+      </div>
+
+<button class="btn check-btn">complete check-in</button>
+
+   <div class="success-message" style="display:none;">
+<h2>✓ Check-in completed</h2>
+<p>Your boarding pass is ready</p>
+<a class="btn" href="e-ticket.html">View e-ticket</a>
+
+   </div>
+
+</div>
+
+<script>
+
+let successMessage=document.querySelector('.success-message');
+   let checkBtn=document.querySelector('.check-btn');
+   checkBtn.disabled=true;
+   document.addEventListener('click',(e)=>{
+      const clicked=e.target;
+      let input=document.querySelector('.confirm-box');
+      if((input.checked==true)){
+        checkBtn.disabled=false;
+      }
+
+      if(clicked.closest('.check-btn') ){
+         successMessage.style.display="block";
+         checkBtn.style.display="none";
+      }else{
+          successMessage.style.display="none";
+          checkBtn.style.display="block";
+      }
+   });
+</script>
+
+
+</script>
+
+</body>
 
 
 
