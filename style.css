@@ -1,3 +1,12 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#ticket{
+    background: #F8F9FA;
+    background:lightpink;
+}
 .header{
     background:#05016A;
     padding: 24px;
@@ -154,6 +163,14 @@ section{
 tr{
     width:600px;
 }
+.info-title{
+    font-size:2.4rem;
+    font-weight:900;
+}
+.ref-num{
+    font-weight:900;
+    font-size:3rem;
+}
 .value{
     font-weight:700;
     text-transform:capitalize;
@@ -170,5 +187,37 @@ tr{
 }
 .help-section td{
     
+}
+.flight-infos{
+    display:flex;
+    justify-content:space-between;
+    border:2px solid black;
+    padding:1rem;
+}
+.flight-infos >article{
+    width:200px;
+   
+}
+#ticket > p{
+    font-family:inter;
+}
+#ticket h2{
+    font-family:verdana;
+    font-size:1.5rem;
+}
+
+#ticket{
+    max-width:800px;
+    width:100%;
+    background:#fff;
+    margin:auto;
+}
+
+#ticket p{
+    font-size:13px;
+   
+}
+#ticket span{
+    display:block;
 }
 
