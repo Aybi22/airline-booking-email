@@ -324,3 +324,36 @@ tr{
     font-weight: 600;
 }
 
+@media screen and (max-width:600px){
+    .header{
+        width:100%;
+    }
+.hero{
+    width:100%
+}
+h1{
+    font-size:1.5rem;
+}
+.booking-details,
+    .flight-summary,
+    .help-section {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+
+.flight-info {
+        display: block;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 20px 15px;
+        text-align: center;
+    }
+}
+
