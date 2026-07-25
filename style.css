@@ -346,7 +346,7 @@ h1{
         display: block;
     }
 
-    .btn {
+    a.btn {
         width: 100%;
         text-align: center;
     }
