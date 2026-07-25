@@ -196,10 +196,14 @@ tr{
     display:flex;
     justify-content:space-between;
     border:2px solid black;
+    min-height:300px;
     padding:1rem;
 }
 .flight-infos >article{
     width:200px;
+
+    display:flex;
+    flex-direction:column;
    
 }
 #ticket > p{
@@ -241,17 +245,24 @@ tr{
     text-transform:capitalize;
     font-weight:900;
 }
+.flight-infos{
+
+}
 .flight-infos article i{
     color:#A11616;
 }
 .flight-infos article >p{
     display:flex;
     align-items:center;
-    gap:0.7rem;
+    gap:1rem;
 }
 .ticket-num, .name{
     font-size:1.5rem;
     font-weight:700;
+}
+.contact-box{
+   
+    margin-top:auto;
 }
 
 .ticket-num{
