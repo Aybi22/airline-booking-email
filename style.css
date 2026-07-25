@@ -232,6 +232,7 @@ tr{
 .receipt-box{
     display:flex;
     flex-direction:column;
+    align-items:center;
     gap:1rem;
 }
 .receipt-section{
@@ -344,6 +345,28 @@ tr{
     
     .email-container{
         width:100%!important;
+    }
+    .flight-infos{
+        display:flex;
+        flex-direction:column;
+        margin-bottom:1rem;
+    }
+    .receipt-section{
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+        padding:0;
+    }
+    .ref-num{
+        font-size:2rem;
+    }
+    .flight-infos h2, .receipt-section h2{
+        font-size:1.5rem;
+    }
+    .receipt-box{
+        display:flex;
+        flex-direction: column;
+        gap:0.5rem;
     }
 
     .email-cards{
