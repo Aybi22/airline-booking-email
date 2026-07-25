@@ -253,6 +253,10 @@ tr{
     font-size:1.5rem;
     font-weight:700;
 }
+
+.ticket-num{
+    color:#A11616;
+}
 .total-amount{
     font-size:2rem;
     font-weight:900;
@@ -329,7 +333,14 @@ tr{
     .email-container{
         width:100%!important;
     }
-    
+
+    .email-cards{
+        display:flex;
+        flex-direction:column;
+    }
+    .cards{
+        width:100%;
+    }
     
     .header{
         width:100%;
