@@ -213,8 +213,11 @@ tr{
     font-family:verdana;
     font-size:1.5rem;
 }
+.flight{
+    margin-bottom:1rem;
+}
 
-#ticket{
+#ticket, #online-check-in{
     max-width:800px;
     width:100%;
     background:#fff;
