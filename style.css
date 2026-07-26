@@ -353,11 +353,14 @@ section{
     width:100%;
 }
 
+
 @media screen and (max-width:600px){
-    
+   
     .email-container{
         width:100%!important;
+       
     }
+  
     .flight-infos{
         display:flex;
         flex-direction:column;
@@ -415,8 +418,8 @@ h1{
 .booking-details,
     .flight-summary,
     .help-section {
-        width: 100%;
-        padding: 20px 15px;
+ 
+        padding: 20px 15px!important;
     }
 
 
