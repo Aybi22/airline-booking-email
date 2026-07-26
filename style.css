@@ -168,9 +168,7 @@ section{
     text-transform:capitalize;
  
 }
-tr{
-    width:600px;
-}
+
 .info-title{
     font-size:1.5rem!important;
     font-weight:900;
@@ -437,6 +435,7 @@ h1{
     .footer {
         padding: 20px 15px;
         text-align: center;
+        width:100%;
     }
 }
 
