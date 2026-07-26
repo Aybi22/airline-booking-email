@@ -360,6 +360,38 @@ section{
 
 @media screen and (max-width:600px){
    
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .hero-para {
+        font-size: 14px;
+    }
+
+    .label,
+    .value {
+        font-size: 13px;
+    }
+
+    .sub-heading {
+        font-size: 14px;
+    }
+
+    .btn,
+    .contact-btn {
+        font-size: 14px;
+    }
+
+
+    
     .email-container{
         width:100%!important;
        
