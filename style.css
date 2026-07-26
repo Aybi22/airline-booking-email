@@ -353,6 +353,10 @@ tr{
     text-decoration: none;
     font-weight: 600;
 }
+.email-container{
+    max-width:600px;
+    width:100%;
+}
 
 @media screen and (max-width:600px){
     
