@@ -13,9 +13,10 @@
     background:#05016A;
     padding: 24px;
    
+   
 }
 .hero{
-  
+   
     padding:32px 24px;
     text-align:center;
 }
@@ -72,6 +73,7 @@ p,.value{
 padding:32px 24px;
    background:#fff;
    border-radius:12px;
+  
     
 }
 .footer{
@@ -354,6 +356,8 @@ section{
 }
 
 
+
+
 @media screen and (max-width:600px){
    
     .email-container{
@@ -431,10 +435,19 @@ h1{
         width: 100%;
         text-align: center;
     }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+    .booking-table, .booking-summary, .help-section{
+        width:100%;
+        padding:15px;
+    }
 
     .footer {
         padding: 20px 15px;
-        text-align: center;
+        
         width:100%;
     }
 }
