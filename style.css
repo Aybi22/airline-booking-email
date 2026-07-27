@@ -355,10 +355,39 @@ section{
     width:100%;
 }
 
+#home footer{
+    background: #05016A;
+    padding:1rem;
+    max-width:1000px;
+    width:100%;
+    
+}
+#home .footer-content{
+    color:#fff;
+    font-size:14px;
+}
+#home .copyright{
+    font-weight:lighter;
+    font-size: 12px;
+}
+#home {
+  min-height: 100vh!important;
+  display: flex;
+  padding:0!important;
+  flex-direction: column;
 
+}
+
+
+main {
+  flex: 1;
+}
 
 
 @media screen and (max-width:600px){
+    footer{
+        width:100%;
+    }
    
     h1 {
         font-size: 26px;
@@ -422,10 +451,8 @@ section{
 
     #home .header{
         width:100%;
-        margin:0;
        
-     
-    }
+       }
     a.btn{
         width:70%!important;
         margin:auto;
