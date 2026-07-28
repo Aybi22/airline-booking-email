@@ -1,4 +1,6 @@
-
+#online-check-in span{
+    font-weight: 900;
+}
 *{
     box-sizing: border-box;
 }
