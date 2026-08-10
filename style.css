@@ -317,13 +317,14 @@ section{
 
 #home {
     font-family: Arial, sans-serif;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 40px 20px;
     background-color: #f5f6fa;
 }
 #home h1{
     text-align:center;
+    
 }
 
 #home > p {
@@ -371,7 +372,7 @@ section{
 #home footer{
     background: #05016A;
     padding:1rem;
-    max-width:1000px;
+    max-width:100%;
     width:100%;
     
 }
