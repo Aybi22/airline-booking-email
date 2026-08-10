@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+     background-image: url("./images/flight.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .ticket-container{
     background: #F8F9FA!important;
     padding:2rem;
