@@ -36,14 +36,18 @@ body{
 }
 h1{
     font-size:32px;
-    color:#050161;
+    color:#fff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 26px;
+}
+.intro-text{
+    color:#fff;
 }
 .hero-para{
     font-size:1rem;
     line-height:40px;
     margin-bottom:1rem;
+   
  
 }
 .hero-para.ticket{
