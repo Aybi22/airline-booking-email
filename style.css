@@ -34,10 +34,15 @@ body{
 .section{
     border:3px solid yellow;
 }
-h1{
+#home h1{
     font-size:32px;
     color:#fff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 26px;
+}
+h1:not(#home h1){
+    color:#05016A;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 26px;
 }
 .intro-text{
@@ -363,6 +368,7 @@ section{
     color: #05016A;
     text-decoration: none;
     font-weight: 600;
+    color:#fff;
 }
 .email-container{
     max-width:600px;
