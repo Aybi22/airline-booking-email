@@ -16,8 +16,8 @@ li,p:not(.main-text){
     font-size:1.3rem;
     
 }
-ul{
-    padding:1rem;
+ul,li{
+    padding:0.5rem;
 }
 
 .case-study{
@@ -67,9 +67,17 @@ p{
 .wireframe-section{
     display:flex;
     width:100%;
+    gap:1rem;
+    justify-content: center;
+    gap:4rem;
 }
 .logo{
     font-family:Verdana;
     font-size:36px;
     font-weight:900;
+}
+.process p{
+    margin-bottom:1rem;
+   
+    
 }

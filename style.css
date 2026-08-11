@@ -370,12 +370,7 @@ section{
     align-items: center;
     gap:20px;
 }
-.process{
-    display:flex;
-    flex-direction:column;
-    gap:1rem;
-    border:2px solid red;
-}
+
 
 .back-link {
     display: inline-block;
