@@ -93,6 +93,16 @@ padding:32px 24px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     
 }
+
+.social-media{
+    display: flex;
+   justify-content: center;
+   gap: 2rem;
+}
+.social-media i{
+  font-size:2rem;
+}
+
 .footer{
     border-radius:12px;
 }
