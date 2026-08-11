@@ -1,3 +1,75 @@
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+*{
+    box-sizing:border-box;
+}
+
+h2{
+    text-transform:capitalize;
+}
+h3{
+    font-weight:600;
+}
+li,p:not(.main-text){
+    color:#374151;
+    font-size:1.3rem;
+    
+}
+ul{
+    padding:1rem;
+}
+
+.case-study{
+    max-width:1300px;
+    margin: 0 auto;
+    padding:40px 20px;
+   
+}
+.header{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   gap:1rem;
+   background:#05016A;
+   color:#fff;
+}
+section{
+    max-width:100%;
+    width:100%;
+    padding:30px 40px;
+    margin-bottom:1rem;
+    border-radius:7px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    
+    
+}
+.main-text{
+    font-size:1.5rem;
+}
+
+h2,h3,h4{
+    color:#05016A;
+}
+.image-box{
+    
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+p{
+    max-width:100%;
+    width:100%;
+    line-height: 33px;
+}
+
+.wireframe-section{
+    display:flex;
+    width:100%;
+}
+.logo{
+    font-family:Verdana;
+    font-size:36px;
+    font-weight:900;
+}
