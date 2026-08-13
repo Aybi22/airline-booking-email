@@ -26,12 +26,42 @@ li,p:not(.main-text){
 ul,li{
     padding:0.5rem;
 }
+.process-content{
+    display:flex;
+    flex-direction:column;
+   
+    gap:1rem;
+}
 
 .case-study{
     max-width:1300px;
     margin: 0 auto;
     padding:40px 20px;
-   
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);;
+   }
+
+   .bold{
+    font-weight:800;
+}
+.design-system-box{
+    max-width:500px;
+    height:300px;
+    width:100%;
+    padding:2rem;
+    border-radius:12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+ background:skyblue;
+   }
+
+.design-system-container{
+    display:grid;
+    max-width:900px;
+    width:100%;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap:1rem;
+   margin:auto;
 }
 .header{
    display:flex;
@@ -74,11 +104,7 @@ p{
    
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 }
-.design-system-box{
-    background:skyblue;
-    padding:40px 25px;
-    margin-bottom: 1rem;
-}
+
 button{
     border:none;
     max-width:150px;
@@ -93,10 +119,11 @@ button{
     }
 
     body{
-        background-image: url('images/skyflight');
+        background-image: url('images/skyflight.jpg');
         background-repeat:no-repeat;
-        background-position:cover;
-        height:100vh;
+        background-size: cover;
+        background-position:center;
+        height:100%vh;
         width:100%;
         
     }
@@ -143,11 +170,17 @@ button.secondary{
     gap:1rem;
     justify-content: center;
     gap:4rem;
+    background:skyblue;
 }
 .logo{
     font-family:Verdana;
     font-size:36px;
     font-weight:900;
+}
+.font-name{
+    display:flex;
+    gap:2rem;
+    align-items:center;
 }
 .process p{
     margin-bottom:1rem;
