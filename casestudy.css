@@ -63,6 +63,21 @@ ul,li{
  background:skyblue;
    }
 
+    .outcome-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: skyblue;
+   
+    max-width:100%;
+    justify-content: center;
+    width:100%;
+  align-items: start;
+  justify-items: center;
+    padding:32px;
+    
+   }
+
+
 .design-system-container{
     display:grid;
     max-width:900px;
