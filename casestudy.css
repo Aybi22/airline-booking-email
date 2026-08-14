@@ -23,6 +23,15 @@ li,p:not(.main-text){
     font-size:1.3rem;
     
 }
+.icons-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2,1fr)!important;
+
+}
+.icon-box{
+    display:flex;
+    flex-direction:column;
+}
 ul,li{
     padding:0.5rem;
 }
